@@ -14,20 +14,25 @@
         </div>
 
         <form>
-            <fieldset class="agrupar">
-                <div class="campo">
-                    <label for="nome"><b>Nome</b></label>
-                    <input type="'text" name="nome" id="nome" required>
-                </div>
-                <div class="campo">
-                    <label for="sobrenome"><b>Sobrenome</b></label>
-                    <input type="text" name="sobrenome" id="sobrenome" required>
-                </div>
-            </fieldset>
-            <div class="campo">
-                <labe for="email"><b>Email</b></labe>
-                <input type="email" name="email" id="email" required>
+            <div id="input_text">
+                <fieldset class="agrupar">
+                    <div class="campo">
+                        <label for="nome"><b>Nome</b></label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div class="campo">
+                        <label for="sobrenome"><b>Sobrenome</b></label>
+                        <input type="text" name="sobrenome" id="sobrenome" required>
+                    </div>
+                </fieldset>
+                <fieldset class="agrupar">
+                    <div class="campo">
+                        <label for="email"><b>Email</b></label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                </fieldset>
             </div>
+            <br>
             <div>
                 <label><b>De qual lado da aplicação você desenvolve ?</b></label><br>
                 <label>
@@ -40,6 +45,7 @@
                     <input type="radio" name="devweb" value="fullstack">Fullstack
                 </label>
             </div>
+            <br>
             <div>
                 <label for="senioridade"><b>Senioridade</b></label><br>
                 <select id="senioridade">
@@ -49,13 +55,17 @@
                     <option>Senior</option>
                 </select>
             </div>
+            <br>
             <fieldset id="agrupar">
                 <div div="check">
-                    <label><b>Selecione as tecnologias que utiliza:</b></label><br><br>
+                    <label><b>Selecione as tecnologias que utiliza:</b></label>
+                    <br>
                     <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
                     <label for="tecnologia1">HTML</label>
+                    <br>
                     <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
                     <label for="tecnologia2">CSS</label>
+                    <br>
                     <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
                     <label for="tecnologia3">JavaScript</label>
                 </div>
